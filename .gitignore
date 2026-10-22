@@ -30,3 +30,6 @@ key.properties
 # Misc
 .DS_Store
 *.log
+
+# krinry
+.krinry-cache/
