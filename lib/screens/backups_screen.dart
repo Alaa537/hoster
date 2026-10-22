@@ -260,7 +260,7 @@ class _BackupsScreenState extends State<BackupsScreen> {
     }
 
     if (_items.isEmpty) {
-      return BeautifulEmpty(
+      return EmptyState(
         icon: Icons.backup_outlined,
         title: 'لا توجد نسخ احتياطية',
         subtitle: 'اضغط + لإنشاء أول نسخة',

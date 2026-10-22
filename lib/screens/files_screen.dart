@@ -535,7 +535,7 @@ class _FilesScreenState extends State<FilesScreen> {
       ));
     }
     if (_items.isEmpty) {
-      return BeautifulEmpty(
+      return EmptyState(
         icon: Icons.folder_open,
         title: 'المجلد فارغ',
         subtitle: 'ارفع ملفاً للبدء',
